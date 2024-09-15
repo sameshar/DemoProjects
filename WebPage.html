@@ -2,6 +2,11 @@
 <html>
     <head>
         <title>Landing Page!</title>
+        <style>
+            table {border:solid;}
+            th, td, tr {border-color:rgba(126, 4, 57, 0.782);border:solid;}
+            p {color:blue;}
+          </style>
     </head>
     <body>
         <p>Body of the webpage.</p>
@@ -31,9 +36,49 @@
             </form>
         </div>
         <div style="background-color:rgba(0, 81, 255, 0.4);">
-            <h1>London</h1>
+            <h1>Form # 3</h1>
             <hr>
-            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+            <form>
+                <table>
+                    <th colspan="2">Registration Form</th>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text"></input></td>
+                    </tr>
+                        <td>Password</td>
+                        <td><input type="text"></input></td>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text"></input></td>
+                    </tr>
+                        <tr></tr>
+                        <td>Address</td>
+                        <td><input type="text"></input></td>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="text"></input></td>
+                    </tr>
+                        <td>Game</td>
+                        <td>
+                            <input type="checkbox">Mario</input>
+                            <br>
+                            <input type="checkbox">Mappy</input>
+                            <br>
+                            <input type="checkbox">PacMan</input>
+                            <br>
+                        </td>
+                    <tr>
+                        <td>User Agreement</td>
+                        <td><input type="radio">Agree</input><input type="radio">Disagree</input></td>
+                    </tr>
+                        <td>Privacy Agreement</td>
+                        <td><input type="radio">Agree</input><input type="radio">Disagree</input></td>
+                    <tr>
+                        <td><input type="submit"></input></td>
+                        <td><input type="reset"></input></td>
+                    </tr>
+                </table>
+            </form>
         </div>
     </body>
 </html>
